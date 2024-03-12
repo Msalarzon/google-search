@@ -7,9 +7,8 @@
     </head>
     <body>
         <nav>
-            <a href="./index.html">Back to Homepage</a>
-            <a href="">Image Search</a>
-            <a href="">Advanced Search</a>
+            <a href="./index.html" id="homepage">Back to Homepage</a>
+            <a href="./advanced.html">Advanced Search</a>
         </nav>
         <h1>
             <span class="blue">G</span>
@@ -20,12 +19,13 @@
             <span class="red">e</span>
         </h1>
         <h3>images</h3>
-        <form action="https://www.google.com/">
+        <form action="https://www.google.com/search" method="GET">
+            <input type="hidden" name="tbm" value="isch">
             <input type="text" name="q">
             <div class="buttons">
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
+                <input type="submit" value="Search Images">
             </div>
         </form>
+        
     </body>
 </html>
