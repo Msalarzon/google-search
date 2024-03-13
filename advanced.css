@@ -84,7 +84,7 @@ form input[type="text"] {
     padding: 4px;
     border-color: rgb(226, 226, 226);
     border-width: 1px;
-    flex: 0 0 600px; 
+    flex: 0 0 580px; 
 }
 
 /* Advanced Search Button */
@@ -100,7 +100,7 @@ form input[type="submit"] {
     font-weight: bold;
     border-radius: 4px;
     font-size: 12px;
-    margin-left: 655px;
+    margin-left: 650px;
     margin-top: 10px;
 }
 
@@ -110,5 +110,6 @@ form input[type="submit"]:hover {
     background-image: -ms-linear-gradient(top, #4d90fe, #4787ed);
     background-image: -o-linear-gradient(top, #4d90fe, #4787ed);
     background-image: linear-gradient(top, #4d90fe, #4787ed);   
+    cursor: pointer;
 }
 
