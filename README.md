@@ -50,11 +50,11 @@ This project is licensed under the terms of the MIT license.
 
 ## Screenshot
 
-![Screenshot Placeholder](screenshot.gif)
+![Screenshot](assets/video_50.gif)
 
 ## Deployed App
 
-[Link to Deployed App](#)
+[Link to Deployed App](https://msalarzon.github.io/google-search/index.html)
 
 ## Disclaimer
 
