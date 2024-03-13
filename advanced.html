@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Advanced Search</title>
     <link rel="stylesheet" href="./advanced.css">
 </head>
 <body>
@@ -16,5 +16,29 @@
         <a href="./index.html" id="homepage">Back to Homepage</a>
         <a href="./images.html">Image Search</a>
     </nav>
+    <h1>Advanced Search</h1>
+
+    <form action="https://www.google.com/search" method="GET">
+        <h2>Find pages with...</h2>
+        <div>
+            <label for="all-words">all these words:</label>
+            <input type="text" id="all-words" name="as_q">
+        </div>
+        <div>
+            <label for="exact-phrase">this exact word or phrase:</label>
+            <input type="text" id="exact-phrase" name="as_epq">
+        </div>
+        <div>
+            <label for="any-words">any of these words:</label>
+            <input type="text" id="any-words" name="as_oq">
+        </div>
+        <div>
+            <label for="none-words">none of these words:</label>
+            <input type="text" id="none-words" name="as_eq">
+        </div>
+        <div>
+            <input type="submit" value="Advanced Search">
+        </div>
+    </form>
 </body>
 </html>
